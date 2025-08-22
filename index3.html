@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <title>AllNews360 - Next Gen News Hub</title>
+  <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <!-- Welcome Screen -->
+  <div class="timeout-modal" id="welcomeScreen">
+    <div class="welcome-content">
+      <div>AllNews360</div>
+      <div class="subtitle">Next Generation News Hub</div>
+    </div>
+  </div>
+
+  <!-- Main Application -->
+  <div class="main-container">
+    <!-- Header -->
+    <div class="top-container">
+      <div class="heading">AllNews360</div>
+    </div>
+
+    <!-- News Container -->
+    <div class="news-container">
+      <div class="news1234" id="newsGrid">
+        <!-- Economic Times -->
+        <div class="news ETnews">
+          <div class="upper">
+            <div class="paper-id">ECONOMIC TIMES</div>
+          </div>
+          <div class="lower" id="et-news">
+            <!-- Headlines will be loaded dynamically -->
+          </div>
+        </div>
+
+        <!-- The Hindu -->
+        <div class="news THnews">
+          <div class="upper">
+            <div class="paper-id">THE HINDU</div>
+          </div>
+          <div class="lower" id="th-news">
+            <!-- Headlines will be loaded dynamically -->
+          </div>
+        </div>
+
+        <!-- Hindustan Times -->
+        <div class="news HTnews">
+          <div class="upper">
+            <div class="paper-id">HINDUSTAN TIMES</div>
+          </div>
+          <div class="lower" id="ht-news">
+            <!-- Headlines will be loaded dynamically -->
+          </div>
+        </div>
+
+        <!-- Times of India -->
+        <div class="news TOInews">
+          <div class="upper">
+            <div class="paper-id">TIMES OF INDIA</div>
+          </div>
+          <div class="lower" id="toi-news">
+            <!-- Headlines will be loaded dynamically -->
+          </div>
+        </div>
+
+        <!-- AI News -->
+        <div class="news AInews">
+          <div class="upper">
+            <div class="paper-id">AI INSIDER</div>
+          </div>
+          <div class="lower" id="ai-news">
+            <!-- Headlines will be loaded dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screenshot Button -->
+    <div class="ss">
+      <div class="news-ss" onclick="captureScreenshot()">
+        <div class="capture">📸</div>
+      </div>
+    </div>
+
+    <!-- Bottom Container -->
+    <div class="bottom-container">
+      <div class="bottom-left"></div>
+      <div class="notes-container" onclick="toggleNotesModal()">
+        MY NOTES
+      </div>
+      <div class="bottom-right"></div>
+    </div>
+  </div>
+
+  <!-- Professional News Modal -->
+  <div class="news-modal" id="newsModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle">NEWS DETAILS</div>
+        <button class="modal-close" onclick="closeNewsModal()">×</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- News items will be loaded here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Notes Modal -->
+  <div class="notes-modal-parent" id="notesModal">
+    <div class="notes-modal-container">
+      <div class="notes-heading" onclick="toggleNotesModal()">
+        MY CAPTURED NOTES
+      </div>
+      <div class="notes-mid">
+        <div class="notes-tickets" id="notesContainer">
+          <h3>Saved Headlines</h3>
+          <div id="notesList">
+            <!-- Notes will be dynamically added here -->
+          </div>
+        </div>
+        <div class="tool-bar">
+          <div class="tool-section">
+            <div class="tool-title">Quick Actions</div>
+            <div class="tool-content">
+              Manage your captured news and notes efficiently.
+            </div>
+            <button class="action-btn" onclick="clearAllNotes()">Clear All</button>
+          </div>
+          <div class="tool-section">
+            <div class="tool-title">Export Options</div>
+            <div class="tool-content">
+              Export your notes in various formats for external use.
+            </div>
+            <button class="action-btn" onclick="exportNotes()">Export JSON</button>
+          </div>
+          <div class="tool-section">
+            <div class="tool-title">Statistics</div>
+            <div class="tool-content">
+              <div>Total Notes: <span id="totalNotes">0</span></div>
+              <div>Sources: <span id="totalSources">0</span></div>
+            </div>
+          </div>
+          <div class="tool-section">
+            <div class="tool-title">Auto Refresh</div>
+            <div class="tool-content">
+              News updates automatically every 30 seconds.
+            </div>
+            <button class="action-btn" onclick="refreshNewsFromAPI()">Refresh Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification -->
+  <div class="notification" id="notification">
+    Notification message
+  </div>
+
+ 
+</body>
+</html>

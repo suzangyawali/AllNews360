@@ -1,0 +1,21 @@
+{
+  "name": "NewsPaper_App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "finalData.js",
+  "dependencies": {
+    "puppeteer": "^9.1.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "start": "node finalData.js",
+    "serve": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

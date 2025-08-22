@@ -1,0 +1,52 @@
+{
+  "ET": {
+    "0": "Fed officials divided ahead of Powell’s Jackson Hole Speech ",
+    "1": "Nazara Tech shares tumble 18% in 3 sessions on gaming bill jitters; what should investors do now? ",
+    "2": "Apollo Micro Systems shares surge 15% following Rs 25 cr order wins from DRDO, other defence PSUs ",
+    "3": "Warburg-backed Avanse is said to mull IPO delay on US visa rules ",
+    "4": "Classic Electrodes IPO: Check GMP, price band, issue size and other details ",
+    "5": "Can betting on last year's losers lead to higher stock market returns? ",
+    "6": "'Chaos Ahead’: India reels from US tariff hike threat, exporters warn of mass job losses ",
+    "img": "https://img.etimg.com/photo/msid-67628067,quality-100/et-logo.jpg"
+  },
+  "Hindu": {
+    "0": "USAID didn’t receive funding of $21 million for voter turnout in India: Embassy to MEA",
+    "1": "A photo exhibition held in Kochi highlighted birds commonly found in Kerala ",
+    "2": "West Bengal suspends four officials over alleged irregularities in revision of electoral rolls; no FIR filed",
+    "3": "Protest in Kerala’s Chalakudy over poor roads, traffic congestion leads to NHAI engineer being locked in room",
+    "4": "Google releases research on Gemini’s AI environmental footprint",
+    "5": "Vivo V60 Review | For those who prefer design, durability and photography",
+    "6": "Supreme Court modifies earlier directive, allows release of strays from Delhi shelters after immunisation",
+    "img": "https://www.thehindu.com/theme/images/th-online/thehindu-logo-01.jpg"
+  },
+  "HT": {
+    "0": "'Accept 11 documents or Aadhar': Supreme Court to Election Commission on Bihar SIR",
+    "1": "Ruckus at Delhi CM Rekha Gupta event in Gandhi Nagar, police steps in",
+    "2": "'Sanctions don't prohibit': Former Trump NSA John Bolton on India buying Russian oil",
+    "3": "'Rooted in scientific reasoning': Rahul Gandhi lauds Supreme Court's modified stray dogs order",
+    "4": "ED raids Karnataka MLA KC Veerendra Pappy in online gaming case",
+    "5": "Uddhav Sena mouthpiece targets Amit Shah over PM, CM removal bills",
+    "6": "Delhi CM Rekha Gupta makes first public appearance after attack",
+    "img": "https://www.hindustantimes.com/res/images/ht-logo.svg"
+  },
+  "TOI": {
+    "0": "‘Surprised over political parties inaction’: Supreme Court on Bihar SIR over deleted voters; EC defends roll revision",
+    "1": "‘Scientific judgement’: Maneka Gandhi hails Supreme Court stray dog ruling; seeks definition of 'aggression'",
+    "2": "'We saw how files were being signed from jail ...': PM Modi on bill to sack jailed PM, CMs; jibe at opposition",
+    "3": "Big relief for animal lovers! SC revises order, tells MCD to let off all stray dogs except the aggressive – Here’s what unfolded in 11 days",
+    "4": "Watch: Constable caught on video trying to push passenger out of train; RPF says it was at platform",
+    "5": "Push for handicrafts: Textiles minister Giriraj Singh inaugurates retail hub in Delhi; ‘The Kunj’ envisaged as a model for initiatives nationwide",
+    "6": "Dedicated feeding zones, vaccination & more: Supreme Court’s major order on stray dogs — Key takeaways",
+    "img": "https://static.toiimg.com/photo/msid-58127550/58127550.jpg"
+  },
+  "AI": {
+    "0": "Proton’s privacy-first Lumo AI assistant gets a major upgrade",
+    "1": "How AI servers are transforming Taiwan’s electronics manufacturing giants",
+    "2": "Gen AI makes no financial difference in 95% of cases",
+    "3": "Google Cloud unveils AI ally for security teams",
+    "4": "Yext Unveils Scout and Launches Webinar to Help Brands Stay Visible in AI & Local Search",
+    "5": "New Nvidia Blackwell chip for China may outpace H20 model",
+    "6": "UK urged to seize ‘once-in-20-years’ AI chip design opportunity",
+    "img": "https://artificialintelligence-news.com/wp-content/themes/ai-news/assets/img/logo.png"
+  }
+}
