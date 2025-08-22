@@ -1,18 +1,17 @@
 {
-  "name": "NewsPaper_App",
+  "name": "allnews360",
   "version": "1.0.0",
-  "description": "",
-  "main": "finalData.js",
+  "description": " News aggregation app",
   "dependencies": {
-    "puppeteer": "^9.1.1",
+    "express": "^5.1.0",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
   },
   "scripts": {
-    "start": "node finalData.js",
-    "serve": "http-server .",
+    "start": "node server.js",
+    "scrape": "node run.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

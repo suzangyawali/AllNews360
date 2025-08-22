@@ -309,7 +309,7 @@
         allowTaint: true
       }).then(function(canvas) {
         const link = document.createElement('a');
-        link.download = 'newsmania_screenshot.png';
+        link.download = 'Allnews360_screenshot.png';
         link.href = canvas.toDataURL();
         document.body.appendChild(link);
         link.click();
